@@ -4,10 +4,10 @@ title: Chrome from a custom directory
 ---
 
 If you have limited space in your system directory, and you still need to install 
-Chrome, this might help you. Please note, this method may not work for all the deb
+Chrome, this might help you. Please note, that this method may not work for all the deb
 packages. 
 
-Assuming you have a seperate partition for `/var` which has free space for the Chrome installation. 
+Assuming you have a separate partition for `/var` having space for the Chrome installation. 
 
 ```bash 
 cd /var
