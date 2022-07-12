@@ -114,10 +114,11 @@ blockquote {
     padding-left: 1em;
 }
 .title-a {
-    display: inline-block;
+    display: grid;
     border: 1px dashed;
     padding: 2px 15px;
     margin-bottom: 1em;
+    text-align: -webkit-right;
     h1:before{
         content: "";
     }
