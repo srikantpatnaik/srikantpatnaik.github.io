@@ -16,7 +16,7 @@ sudo mkdir /var/chrome && sudo chown -R $USER.$USER /var/chrome
 dpkg-deb -x google-chrome-stable_current_amd64.deb chrome/
 ```
 
-That being done, you can simply open the `chrome` from the command line
+That being done, you can simply open `chrome` from the command line
 ```bash
 /var/chrome/opt/google/chrome/chrome
 ```
