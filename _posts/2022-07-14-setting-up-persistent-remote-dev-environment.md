@@ -5,6 +5,7 @@ title: Setting up a persistent remote development environment
 
 Working on remote systems could be challenging if your connection is spotty. Especially when you're using a remote shell. 
 I use more than one connection to the same server, and reconnecting each broken session is frustrating. 
+
 I know `mosh`, an excellent in-place replacement for `ssh`. However, you need an additional `UDP` port for each
 session. Then comes the `tmux`, a screen splitter, and a session manager with extra goodies. But I prefer `byobu`, which is 
 a wrapper around `tmux` which in turn is a wrapper around GNU `screen`. 
